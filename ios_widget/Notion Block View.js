@@ -2,7 +2,7 @@
 // These must be at the very top of the file. Do not edit.
 // icon-color: deep-blue; icon-glyph: book;
 
-const NOTION_TOKEN = "<token>"
+const NOTION_TOKEN = "73110943c131d815484b722dc884495155c20a075e4a23a656ae647152fb65e213247314509c35959bc4dd63da331d5efe97c8ef65c4975bdc22bac2f9f90cbc9cba855e81ef513c312b559876b7"
 
 const timestamp = new Date().toLocaleTimeString()
 
@@ -176,7 +176,7 @@ function notionServerRequest(url) {
   const request = new Request(url)
   request.method = 'GET'
   request.headers = {
-    'Notion-Token': NOTION_TOKEN
+    'Notion-Token': "73110943c131d815484b722dc884495155c20a075e4a23a656ae647152fb65e213247314509c35959bc4dd63da331d5efe97c8ef65c4975bdc22bac2f9f90cbc9cba855e81ef513c312b559876b7"
   }
 
   return request
